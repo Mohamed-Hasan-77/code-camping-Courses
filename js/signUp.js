@@ -51,7 +51,7 @@
 // if user data is in not session storage 
 let noUser = `
 <a href="signup.html" class="nav-link">Signup</a>
-<a href="Login.html" class="nav-link">Login</a>
+<a href="login.html" class="nav-link">Login</a>
 `
 
 
