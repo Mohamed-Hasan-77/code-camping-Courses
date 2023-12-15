@@ -119,8 +119,6 @@ function signUp (e) {
 
     }
 
-
-    console.log(errors);
     
     if(errors.length == 0) {
 
@@ -192,7 +190,12 @@ function signUp (e) {
     }
 
 
-    } 
+    } else {
+        let socialLogin = document.querySelector(".loginSocial");
+
+
+        socialLogin.innerHTML = ""
+    }
 
 
 
